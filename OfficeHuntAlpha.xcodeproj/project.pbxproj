@@ -11,6 +11,26 @@
 		F88E0F122BF906F300C7EE3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F112BF906F300C7EE3E /* ContentView.swift */; };
 		F88E0F142BF906F400C7EE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F132BF906F400C7EE3E /* Assets.xcassets */; };
 		F88E0F172BF906F400C7EE3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F162BF906F400C7EE3E /* Preview Assets.xcassets */; };
+		F88E0F252BF9071A00C7EE3E /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F1E2BF9071A00C7EE3E /* CameraView.swift */; };
+		F88E0F262BF9071A00C7EE3E /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F1F2BF9071A00C7EE3E /* DataModel.swift */; };
+		F88E0F272BF9071A00C7EE3E /* Camera.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F202BF9071A00C7EE3E /* Camera.swift */; };
+		F88E0F282BF9071A00C7EE3E /* LeftPlayerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F212BF9071A00C7EE3E /* LeftPlayerInfoView.swift */; };
+		F88E0F292BF9071A00C7EE3E /* ViewfinderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F222BF9071A00C7EE3E /* ViewfinderView.swift */; };
+		F88E0F2A2BF9071A00C7EE3E /* RightPlayerInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F88E0F232BF9071A00C7EE3E /* RightPlayerInfoView.swift */; };
+		F88E0F2F2BF9075D00C7EE3E /* RedCross.png in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F2C2BF9075D00C7EE3E /* RedCross.png */; };
+		F88E0F302BF9075D00C7EE3E /* GreenCheck.png in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F2D2BF9075D00C7EE3E /* GreenCheck.png */; };
+		F88E0F312BF9075D00C7EE3E /* OfficeHuntLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F2E2BF9075D00C7EE3E /* OfficeHuntLogo.png */; };
+		F88E0F372BF9076D00C7EE3E /* LondrinaSolid-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F322BF9076D00C7EE3E /* LondrinaSolid-Black.ttf */; };
+		F88E0F382BF9076D00C7EE3E /* LondrinaSolid-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F332BF9076D00C7EE3E /* LondrinaSolid-Light.ttf */; };
+		F88E0F392BF9076D00C7EE3E /* LondrinaSolid-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F342BF9076D00C7EE3E /* LondrinaSolid-Regular.ttf */; };
+		F88E0F3A2BF9076D00C7EE3E /* LondrinaSolid-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F352BF9076D00C7EE3E /* LondrinaSolid-Thin.ttf */; };
+		F88E0F422BF9077E00C7EE3E /* airhorn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F3B2BF9077D00C7EE3E /* airhorn.mp3 */; };
+		F88E0F432BF9077E00C7EE3E /* dingOnce.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F3C2BF9077D00C7EE3E /* dingOnce.mp3 */; };
+		F88E0F442BF9077E00C7EE3E /* femaleCountdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F3D2BF9077D00C7EE3E /* femaleCountdown.wav */; };
+		F88E0F452BF9077E00C7EE3E /* initialCountdown.wav in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F3E2BF9077D00C7EE3E /* initialCountdown.wav */; };
+		F88E0F462BF9077E00C7EE3E /* runamok.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F3F2BF9077D00C7EE3E /* runamok.mp3 */; };
+		F88E0F472BF9077E00C7EE3E /* victory.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F88E0F402BF9077D00C7EE3E /* victory.mp3 */; };
+		F88E0F4A2BF907A800C7EE3E /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = F88E0F492BF907A800C7EE3E /* SwiftySound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +40,26 @@
 		F88E0F132BF906F400C7EE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F88E0F162BF906F400C7EE3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F88E0F182BF906F400C7EE3E /* OfficeHuntAlpha.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OfficeHuntAlpha.entitlements; sourceTree = "<group>"; };
+		F88E0F1E2BF9071A00C7EE3E /* CameraView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		F88E0F1F2BF9071A00C7EE3E /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		F88E0F202BF9071A00C7EE3E /* Camera.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Camera.swift; sourceTree = "<group>"; };
+		F88E0F212BF9071A00C7EE3E /* LeftPlayerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeftPlayerInfoView.swift; sourceTree = "<group>"; };
+		F88E0F222BF9071A00C7EE3E /* ViewfinderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewfinderView.swift; sourceTree = "<group>"; };
+		F88E0F232BF9071A00C7EE3E /* RightPlayerInfoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RightPlayerInfoView.swift; sourceTree = "<group>"; };
+		F88E0F2C2BF9075D00C7EE3E /* RedCross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = RedCross.png; sourceTree = "<group>"; };
+		F88E0F2D2BF9075D00C7EE3E /* GreenCheck.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GreenCheck.png; sourceTree = "<group>"; };
+		F88E0F2E2BF9075D00C7EE3E /* OfficeHuntLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OfficeHuntLogo.png; sourceTree = "<group>"; };
+		F88E0F322BF9076D00C7EE3E /* LondrinaSolid-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Black.ttf"; sourceTree = "<group>"; };
+		F88E0F332BF9076D00C7EE3E /* LondrinaSolid-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Light.ttf"; sourceTree = "<group>"; };
+		F88E0F342BF9076D00C7EE3E /* LondrinaSolid-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Regular.ttf"; sourceTree = "<group>"; };
+		F88E0F352BF9076D00C7EE3E /* LondrinaSolid-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "LondrinaSolid-Thin.ttf"; sourceTree = "<group>"; };
+		F88E0F3B2BF9077D00C7EE3E /* airhorn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = airhorn.mp3; sourceTree = "<group>"; };
+		F88E0F3C2BF9077D00C7EE3E /* dingOnce.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dingOnce.mp3; sourceTree = "<group>"; };
+		F88E0F3D2BF9077D00C7EE3E /* femaleCountdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = femaleCountdown.wav; sourceTree = "<group>"; };
+		F88E0F3E2BF9077D00C7EE3E /* initialCountdown.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = initialCountdown.wav; sourceTree = "<group>"; };
+		F88E0F3F2BF9077D00C7EE3E /* runamok.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = runamok.mp3; sourceTree = "<group>"; };
+		F88E0F402BF9077D00C7EE3E /* victory.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = victory.mp3; sourceTree = "<group>"; };
+		F88E0F4B2BF9098F00C7EE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88E0F4A2BF907A800C7EE3E /* SwiftySound in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +93,20 @@
 		F88E0F0E2BF906F300C7EE3E /* OfficeHuntAlpha */ = {
 			isa = PBXGroup;
 			children = (
+				F88E0F4B2BF9098F00C7EE3E /* Info.plist */,
 				F88E0F0F2BF906F300C7EE3E /* OfficeHuntAlphaApp.swift */,
 				F88E0F112BF906F300C7EE3E /* ContentView.swift */,
+				F88E0F202BF9071A00C7EE3E /* Camera.swift */,
+				F88E0F1E2BF9071A00C7EE3E /* CameraView.swift */,
+				F88E0F1F2BF9071A00C7EE3E /* DataModel.swift */,
+				F88E0F212BF9071A00C7EE3E /* LeftPlayerInfoView.swift */,
+				F88E0F232BF9071A00C7EE3E /* RightPlayerInfoView.swift */,
+				F88E0F222BF9071A00C7EE3E /* ViewfinderView.swift */,
+				F88E0F412BF9077D00C7EE3E /* AudioResources */,
+				F88E0F362BF9076D00C7EE3E /* CustomFonts */,
+				F88E0F2D2BF9075D00C7EE3E /* GreenCheck.png */,
+				F88E0F2E2BF9075D00C7EE3E /* OfficeHuntLogo.png */,
+				F88E0F2C2BF9075D00C7EE3E /* RedCross.png */,
 				F88E0F132BF906F400C7EE3E /* Assets.xcassets */,
 				F88E0F182BF906F400C7EE3E /* OfficeHuntAlpha.entitlements */,
 				F88E0F152BF906F400C7EE3E /* Preview Content */,
@@ -67,6 +120,30 @@
 				F88E0F162BF906F400C7EE3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F88E0F362BF9076D00C7EE3E /* CustomFonts */ = {
+			isa = PBXGroup;
+			children = (
+				F88E0F322BF9076D00C7EE3E /* LondrinaSolid-Black.ttf */,
+				F88E0F332BF9076D00C7EE3E /* LondrinaSolid-Light.ttf */,
+				F88E0F342BF9076D00C7EE3E /* LondrinaSolid-Regular.ttf */,
+				F88E0F352BF9076D00C7EE3E /* LondrinaSolid-Thin.ttf */,
+			);
+			path = CustomFonts;
+			sourceTree = "<group>";
+		};
+		F88E0F412BF9077D00C7EE3E /* AudioResources */ = {
+			isa = PBXGroup;
+			children = (
+				F88E0F3B2BF9077D00C7EE3E /* airhorn.mp3 */,
+				F88E0F3C2BF9077D00C7EE3E /* dingOnce.mp3 */,
+				F88E0F3D2BF9077D00C7EE3E /* femaleCountdown.wav */,
+				F88E0F3E2BF9077D00C7EE3E /* initialCountdown.wav */,
+				F88E0F3F2BF9077D00C7EE3E /* runamok.mp3 */,
+				F88E0F402BF9077D00C7EE3E /* victory.mp3 */,
+			);
+			path = AudioResources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +162,9 @@
 			dependencies = (
 			);
 			name = OfficeHuntAlpha;
+			packageProductDependencies = (
+				F88E0F492BF907A800C7EE3E /* SwiftySound */,
+			);
 			productName = OfficeHuntAlpha;
 			productReference = F88E0F0C2BF906F300C7EE3E /* OfficeHuntAlpha.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +193,9 @@
 				Base,
 			);
 			mainGroup = F88E0F032BF906F300C7EE3E;
+			packageReferences = (
+				F88E0F482BF907A800C7EE3E /* XCRemoteSwiftPackageReference "SwiftySound" */,
+			);
 			productRefGroup = F88E0F0D2BF906F300C7EE3E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,8 +210,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88E0F422BF9077E00C7EE3E /* airhorn.mp3 in Resources */,
+				F88E0F302BF9075D00C7EE3E /* GreenCheck.png in Resources */,
+				F88E0F312BF9075D00C7EE3E /* OfficeHuntLogo.png in Resources */,
+				F88E0F2F2BF9075D00C7EE3E /* RedCross.png in Resources */,
+				F88E0F382BF9076D00C7EE3E /* LondrinaSolid-Light.ttf in Resources */,
+				F88E0F372BF9076D00C7EE3E /* LondrinaSolid-Black.ttf in Resources */,
+				F88E0F3A2BF9076D00C7EE3E /* LondrinaSolid-Thin.ttf in Resources */,
+				F88E0F392BF9076D00C7EE3E /* LondrinaSolid-Regular.ttf in Resources */,
+				F88E0F452BF9077E00C7EE3E /* initialCountdown.wav in Resources */,
+				F88E0F472BF9077E00C7EE3E /* victory.mp3 in Resources */,
+				F88E0F462BF9077E00C7EE3E /* runamok.mp3 in Resources */,
+				F88E0F432BF9077E00C7EE3E /* dingOnce.mp3 in Resources */,
 				F88E0F172BF906F400C7EE3E /* Preview Assets.xcassets in Resources */,
 				F88E0F142BF906F400C7EE3E /* Assets.xcassets in Resources */,
+				F88E0F442BF9077E00C7EE3E /* femaleCountdown.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +235,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F88E0F282BF9071A00C7EE3E /* LeftPlayerInfoView.swift in Sources */,
+				F88E0F252BF9071A00C7EE3E /* CameraView.swift in Sources */,
+				F88E0F272BF9071A00C7EE3E /* Camera.swift in Sources */,
+				F88E0F262BF9071A00C7EE3E /* DataModel.swift in Sources */,
 				F88E0F122BF906F300C7EE3E /* ContentView.swift in Sources */,
 				F88E0F102BF906F300C7EE3E /* OfficeHuntAlphaApp.swift in Sources */,
+				F88E0F2A2BF9071A00C7EE3E /* RightPlayerInfoView.swift in Sources */,
+				F88E0F292BF9071A00C7EE3E /* ViewfinderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +381,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OfficeHuntAlpha/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For the game we need to access camera";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,6 +410,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OfficeHuntAlpha/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "For the game we need to access camera";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -341,6 +447,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F88E0F482BF907A800C7EE3E /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamcichy/SwiftySound.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.3.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F88E0F492BF907A800C7EE3E /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F88E0F482BF907A800C7EE3E /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F88E0F042BF906F300C7EE3E /* Project object */;
 }
